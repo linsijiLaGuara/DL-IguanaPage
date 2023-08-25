@@ -16,6 +16,22 @@
     background: #000000 0% 0% no-repeat padding-box;
 }
 
+.title {
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria 'Times New Roman';
+
+}
 .caja-2 {
     height: 727px;
     background-color: #000000;
@@ -36,7 +52,56 @@
 
 
 }
+.right-iguana {
+    width: 40%;
+    height: 280px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.imagen-iguana {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding-top: 30px;
+    padding-right: ;
+    padding-left: 25px;
+}
+
+
+.left-parrafo {
+    width: 60%;
+    background-color: #000000;
+    padding: 20px;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.parrafo-1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0px;
+    max-height: 100%;
+    overflow-y: auto;
+    font-size: 14px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 150px;
+    padding-left: 250px;
+    text-align:justify;
+
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .left-parrafo{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
 .caja-4 {
     height: 348px;
     background-color: #1E1A13;
@@ -63,79 +128,10 @@
 }
 
 .iconos {
+    /* se agrego fa-regular fa-hand-peace  y no fab fa-hand-peace ya que la version de la liberia no se encontro la que estaba en la implentacio
+
+*/
     font-size: 80px;
-}
-
-h3 {
-    font-size: 20px;
-    text-align: center;
-    font-family: Cambria 'Times New Roman';
-
-}
-
-.title {
-    font-family: 'Tilt Prism', cursive;
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    margin: 0px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-
-}
-
-.right-iguana {
-    width: 40%;
-    height: 280px;
-    background-color: #000;
-    /* Agregamos un fondo para visualizar mejor el tamaño del contenedor */
-    display: flex;
-    justify-content: center;
-    /* Centramos verticalmente */
-    align-items: center;
-    /* Centramos horizontalmente */
-}
-
-.imagen-iguana {
-    max-width: 100%;
-    /* Cambiamos max-height por max-width */
-    max-height: 100%;
-    /* Mantenemos max-height para asegurar que también se ajuste verticalmente */
-    object-fit: contain;
-    padding-top: 20px;
-    padding-right: 100px;
-}
-
-
-.left-parrafo {
-    width: 60%;
-    background-color: #000000;
-    padding: 20px;
-    min-height: 100%;
-    overflow: hidden;
-    /* Evita el desbordamiento */
-}
-
-.parrafo-1 {
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 0px;
-    max-height: 100%;
-    overflow-y: auto;
-    font-size: 14px;
-    justify-content: center;
-    padding-top: 30px;
-    text-align:justify;
-
-}
-
-/* Media Query para pantallas pequeñas */
-@media (max-width: 768px) {
-    .left-parrafo{
-        width: 100%;
-        padding: 10px;
-    }
-
 }
 
 .caja-5 {
